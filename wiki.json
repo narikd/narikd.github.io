@@ -1,0 +1,111 @@
+{
+  "site": {
+    "title": "Your Name",
+    "location": "Your City",
+    "headline": "Things I build,\nand what they taught me.",
+    "intro": "A working notebook of projects: software, hardware, data, and writing. Each one has its own page with what it is, how it works, and what I'd do differently.",
+    "email": "you@example.com",
+    "links": [
+      { "label": "GitHub", "short": "GH", "url": "https://github.com/your-username", "group": "For code" },
+      { "label": "LinkedIn", "short": "IN", "url": "https://www.linkedin.com/in/your-username", "group": "For work" }
+    ]
+  },
+
+  "about": {
+    "statement": "I'm a builder based in Your City. I make small tools, hardware experiments, and data projects, and I write up what I learn along the way.",
+    "groups": [
+      {
+        "title": "Experience",
+        "items": [
+          { "name": "Current company", "detail": "Your role" },
+          { "name": "Previous company", "detail": "Your role" }
+        ]
+      },
+      {
+        "title": "Tools I reach for",
+        "items": [
+          { "name": "TypeScript and Svelte" },
+          { "name": "Python and pandas" },
+          { "name": "ESP32 and KiCad" }
+        ]
+      }
+    ]
+  },
+
+  "categories": ["Software", "Hardware", "Data", "Writing"],
+
+  "projects": [
+    {
+      "slug": "trail-weather",
+      "title": "Trail Weather",
+      "summary": "A small web app that turns hourly forecasts into a go / wait / skip call for weekend hikes.",
+      "category": "Software",
+      "status": "active",
+      "started": "2026-03",
+      "updated": "2026-10-04",
+      "role": "Solo, design and code",
+      "stack": ["TypeScript", "Svelte", "Open-Meteo API"],
+      "tags": ["web", "weather", "side-project"],
+      "cover": "assets/img/trail-weather.svg",
+      "color": "#24463D",
+      "links": [
+        { "label": "Live app", "url": "https://example.com" },
+        { "label": "Source", "url": "https://github.com/your-username/trail-weather" }
+      ]
+    },
+    {
+      "slug": "home-sensor-network",
+      "title": "Home sensor network",
+      "summary": "Six battery-powered temperature and humidity nodes reporting to a Raspberry Pi over LoRa.",
+      "category": "Hardware",
+      "status": "paused",
+      "started": "2025-11",
+      "updated": "2026-06-12",
+      "role": "Solo",
+      "stack": ["ESP32", "LoRa", "Python", "InfluxDB"],
+      "tags": ["electronics", "iot", "home"],
+      "cover": "assets/img/home-sensor-network.svg",
+      "color": "#9A4E1C",
+      "links": [
+        { "label": "Schematics", "url": "https://github.com/your-username/sensor-net" }
+      ]
+    },
+    {
+      "slug": "commute-data",
+      "title": "Two years of commute data",
+      "summary": "What 900 logged trips say about leaving ten minutes earlier.",
+      "category": "Data",
+      "status": "complete",
+      "started": "2024-09",
+      "updated": "2026-02-20",
+      "role": "Analysis and write-up",
+      "stack": ["Python", "pandas", "Observable Plot"],
+      "tags": ["analysis", "visualization"],
+      "cover": "assets/img/commute-data.svg",
+      "color": "#2A43B8",
+      "links": [
+        { "label": "Notebook", "url": "https://github.com/your-username/commute" }
+      ]
+    },
+    {
+      "slug": "reading-log",
+      "title": "Reading log",
+      "summary": "Notes and short reviews of what I read, kept as plain Markdown.",
+      "category": "Writing",
+      "status": "ongoing",
+      "started": "2023-01",
+      "updated": "2026-09-30",
+      "role": "Author",
+      "stack": ["Markdown"],
+      "tags": ["notes", "books"],
+      "cover": "assets/img/reading-log.svg",
+      "color": "#6A43A3",
+      "links": []
+    }
+  ],
+
+  "pages": [
+    { "slug": "about", "title": "About" },
+    { "slug": "how-this-wiki-works", "title": "How this wiki works" }
+  ]
+}
